@@ -88,5 +88,122 @@ ul {
     line-height: normal;
     text-align: center;
     display: block;
-    margin-left: 650px;
+}
+
+.section_two {
+    background-color: #FFF;
+    margin-top: 80px;
+    height: 450px;
+}
+
+.section_two_ul {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section_two_img {
+    width: 349px;
+    height: 232px;
+    flex-shrink: 0;
+}
+
+.section_two_h3 {
+    color: #000;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.section_two_p {
+    color: #000;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 12px;
+}
+
+.section_two_a {
+    color: #7C7C7C;
+    margin-left: 135px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin-top: 22px;
+}
+
+.section_three {
+    background: #E6E6E6;
+    height: 627px;
+}
+
+.section_three_h2 {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.section_three_ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.section_three_img {
+    width: 310px;
+    height: 192px;
+    flex-shrink: 0;
+}
+
+.section_three_article {
+    background-color: #FFF;
+    width: 310px;
+    height: 380px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.section_three_p_date {
+    color: #7C7C7C;
+    font-family: 'Quicksana', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.section_three_b {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.section_three_p {
+    color: #7C7C7C;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 570;
+    line-height: normal;
+    padding-top: 10px;
 }
