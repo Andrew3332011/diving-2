@@ -210,4 +210,16 @@ ul {
     padding-top: 10px;
 }
 
+.footer_top {
+    background: #001C2D;
+    flex-shrink: 0;
+}
 
+.footer_top_h4 {
+    color: #FFF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
