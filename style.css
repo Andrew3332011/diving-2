@@ -51,6 +51,7 @@ ul {
     width: 613px;
     padding-top: 170px;
     margin-left: 150px;
+    text-transform: capitalize;
 }
 
 .p_section_one {
@@ -104,8 +105,8 @@ ul {
 }
 
 .section_two_img {
-    width: 349px;
-    height: 232px;
+    width: 520px;
+    height: 342px;
     flex-shrink: 0;
 }
 
@@ -166,8 +167,8 @@ ul {
 }
 
 .section_three_img {
-    width: 310px;
-    height: 192px;
+    width: 520px;
+    height: 342px;
     flex-shrink: 0;
 }
 
@@ -206,4 +207,8 @@ ul {
     font-weight: 570;
     line-height: normal;
     padding-top: 10px;
+}
+
+.content {
+    width: 1600px;
 }
