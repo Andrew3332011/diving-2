@@ -265,4 +265,13 @@ footer {
     padding:25px 40px 50px 40px;
 }
 
-.footer_
+.img_one {
+    display: flex;
+    gap:25px
+}
+
+.img_two {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
