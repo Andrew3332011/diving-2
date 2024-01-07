@@ -10,18 +10,19 @@
 .header {
     background-color: #0C70AC;
     border-bottom: 1px solid #fff;
-    height: 70px;
 }
 
 .header_links {
     display: flex;
     gap:80px ;
     justify-content: center;
-    padding-top: 25px;
+    padding-top: 60px;
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 700;
+    padding-bottom: 60px;
 }
+
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -36,10 +37,11 @@ ul {
     text-decoration: none;
     text-transform: uppercase;
     display: flex;
+    font-family: Inter;
 }
 
-.header_a:active {
-    color: #F4DE1F;
+.active {
+    color:#F4DE1F;
 }
 
 .section_one {
@@ -51,7 +53,6 @@ ul {
     font-family: 'Quicksand', sans-serif;
     font-size: 64px;
     font-weight: 700;
-    width: 613px;
     padding-top: 170px;
     text-transform: capitalize;
 }
@@ -69,16 +70,17 @@ ul {
 .section_container {
     display: flex;
     justify-content: space-between;
+    gap: 447px;
 }
 
-.section_one_second_div {
+/* .section_one_second_div {
     display: block;
     float: right;
     margin-top: -360px;
     width: 510px;
     height: 600px;
     margin-right: 150px;
-}
+} */
 
 .h2_sec {
     color: #000;
@@ -101,12 +103,6 @@ ul {
     margin-top: 50px;
     justify-content: center;
     gap: 30px;
-}
-
-.section_two_img {
-    width: 520px;
-    height: 342px;
-    flex-shrink: 0;
 }
 
 .section_two_h3 {
@@ -165,18 +161,12 @@ ul {
     gap: 30px;
 }
 
-/* .section_three_img {
-    width: 520px;
-    height: 342px;
-    flex-shrink: 0;
-} */
-
 .section_three_article {
     background-color: #FFF;
     width: 520px;
     margin-top: 40px;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .section_three_p_date {
@@ -224,10 +214,6 @@ ul {
     padding-left: 150px;
 }
 
-
-
-
-
 .footer_top_h4_two {
     color: #FFF;
     font-family: Quicksand;
@@ -248,7 +234,6 @@ ul {
     font-weight: 600;
     line-height: normal;
     text-decoration: none;
-    margin-top: -317px;
 }
 
 .f_t_a_o {
@@ -274,4 +259,45 @@ footer {
     display: flex;
     gap: 25px;
     margin-top: 25px;
+}
+
+.footer_top {
+    display: flex;
+    gap:270px;
+}
+
+.footer_container_links {
+    display: flex;
+    gap: 239px;
+}
+
+.footer_top_a {
+    margin-bottom: 50px;
+    display: block;
+}
+
+.footer_top_h2 {
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 75px;
+}
+
+.footer_bottom {
+    border-top: 1px solid #FFF;
+    background: #001C2D;
+    margin-top: 75px;
+}
+
+.footer_bottom_p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.5;
+    text-align: center;
+    padding-top: 63px;
+    padding-bottom: 63px;
 }
