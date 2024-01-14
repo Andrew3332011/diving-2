@@ -31,6 +31,10 @@ ul {
     font-family: Inter;
 }
 
+.active {
+    color:yellow;
+}
+
 .header_links {
     display: flex;
     gap:80px ;
