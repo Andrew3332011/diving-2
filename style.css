@@ -7,9 +7,28 @@
     width: 1620px;
     margin:0 auto;
 }
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+/* header begine */
 .header {
     background-color: #0C70AC;
     border-bottom: 1px solid #fff;
+}
+
+.header_a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    font-family: Inter;
 }
 
 .header_links {
@@ -22,28 +41,8 @@
     font-weight: 700;
     padding-bottom: 60px;
 }
-
-
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-}
-
-ul {
-    list-style: none;
-}
-
-.header_a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: flex;
-    font-family: Inter;
-}
-
-.active {
-    color:#F4DE1F;
-}
-
+/* header finish */
+/* section one begine */
 .section_one {
     background-color: #0C70AC;
 }
@@ -63,32 +62,22 @@ ul {
     font-size: 32px;
     font-weight: 700;
     opacity: 0.5;
-    /* width: 663px; */
     margin-top: 20px;
 }
 
+/* section one finish */
 .section_container {
     display: flex;
     justify-content: space-between;
     gap: 447px;
 }
 
-/* .section_one_second_div {
-    display: block;
-    float: right;
-    margin-top: -360px;
-    width: 510px;
-    height: 600px;
-    margin-right: 150px;
-} */
-
+/* section two begine */
 .h2_sec {
     color: #000;
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-align: center;
     display: block;
 }
@@ -110,9 +99,7 @@ ul {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 21px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     padding-top: 15px;
 }
 
@@ -121,9 +108,7 @@ ul {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     padding-top: 12px;
 }
 
@@ -132,15 +117,14 @@ ul {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     text-decoration-line: underline;
     margin-bottom: 22px;
     display: block;
     padding-top: 12px;
 }
-
+/* section two finish */
+/* section three begine */
 .section_three {
     background: #E6E6E6;
 }
@@ -149,9 +133,7 @@ ul {
     color: #000;
     font-family: 'Quicksand', sans-serif;
     font-size: 28px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     padding-top: 70px;
     text-align: center;
 }
@@ -173,17 +155,13 @@ ul {
     color: #7C7C7C;
     font-family: 'Quicksana', sans-serif;
     font-size: 10px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .section_three_h3 {
     color: #000;
     font-family: 'Quicksand', sans-serif;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     padding-top: 10px;
 }
 
@@ -191,12 +169,16 @@ ul {
     color: #7C7C7C;
     font-family: 'Quicksand', sans-serif;
     font-size: 13px;
-    font-style: normal;
     font-weight: 570;
-    line-height: normal;
     padding-top: 10px;
 }
 
+.section_three_content {
+    padding:25px 40px 50px 40px;
+}
+
+/* section three finish */
+/* footer begine */
 .footer_top {
     background: #001C2D;
     flex-shrink: 0;
@@ -206,9 +188,7 @@ ul {
     color: #FFF;
     font-family: 'Quicksand', sans-serif;
     font-size: 40px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     padding-top: 80px;
     padding-bottom: 50px;
     padding-left: 150px;
@@ -218,9 +198,7 @@ ul {
     color: #FFF;
     font-family: Quicksand;
     font-size: 40px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     display: block;
     float: right;
     margin-top: -417px;
@@ -230,25 +208,17 @@ ul {
     color: #FFF;
     font-family: Quicksand;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-decoration: none;
 }
 
-.f_t_a_o {
-    margin-left: 770px;
-    display: block;
-    margin-bottom: 100px;
-}
+
 
 footer {
     background: #001C2D;
 }
 
-.section_three_content {
-    padding:25px 40px 50px 40px;
-}
+
 
 .img_one {
     display: flex;
@@ -301,3 +271,5 @@ footer {
     padding-top: 63px;
     padding-bottom: 63px;
 }
+
+/* footer finish */
