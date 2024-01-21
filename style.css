@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+body {
+    font-family: Quicksand;
+    font-size:24px;
+}
+
 .container {
     width: 1620px;
     margin:0 auto;
@@ -27,7 +32,6 @@ ul {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    display: flex;
     font-family: Inter;
 }
 
@@ -66,7 +70,7 @@ ul {
     font-size: 32px;
     font-weight: 700;
     opacity: 0.5;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 /* section one finish */
@@ -80,38 +84,37 @@ ul {
 .h2_sec {
     color: #000;
     font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     text-align: center;
-    display: block;
+    padding-top: 35px;
+    padding-bottom: 50px;
 }
 
 .section_two {
     background-color: #FFF;
-    margin-top: 80px;
 }
 
 .section_two_ul {
     display: flex;
-    margin-top: 50px;
-    justify-content: center;
     gap: 30px;
+    margin-bottom: 80px;
 }
 
 .section_two_h3 {
     color: #000;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-    font-size: 21px;
+    font-size: 36px;
     font-weight: 500;
-    padding-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 .section_two_p {
     color: #000;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
     font-weight: 500;
     padding-top: 12px;
 }
@@ -119,8 +122,6 @@ ul {
 .section_two_a {
     color: #7C7C7C;
     text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
     font-weight: 500;
     text-decoration-line: underline;
     margin-bottom: 22px;
@@ -135,11 +136,12 @@ ul {
 
 .section_three_h2 {
     color: #000;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 600;
-    padding-top: 70px;
+    padding-top: 80px;
     text-align: center;
+    padding-bottom: 50px;
+
 }
 
 .section_three_ul {
@@ -149,10 +151,7 @@ ul {
 
 .section_three_article {
     background-color: #FFF;
-    width: 520px;
-    margin-top: 40px;
-    border-radius: 10px;
-    margin-bottom: 80px;
+    border-radius: 15px;
 }
 
 .section_three_p_date {
