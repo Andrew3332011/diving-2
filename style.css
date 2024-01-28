@@ -5,23 +5,36 @@
 
 body {
     font-family: Quicksand;
-    font-size:24px;
+    font-size: 24px;
 }
 
 .container {
     width: 1620px;
-    margin:0 auto;
+    margin: 0 auto;
+}
+
+.section_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 447px;
 }
 
 
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
 ul {
     list-style: none;
 }
+
 /* header begine */
 .header {
     background-color: #0C70AC;
@@ -32,23 +45,22 @@ ul {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: Inter;
 }
 
 .active {
-    color:yellow;
+    color: yellow;
 }
 
 .header_links {
     display: flex;
-    gap:80px ;
+    gap: 95px;
     justify-content: center;
     padding-top: 60px;
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
     font-weight: 700;
     padding-bottom: 60px;
 }
+
 /* header finish */
 /* section one begine */
 .section_one {
@@ -57,7 +69,6 @@ ul {
 
 .h1 {
     color: #fff;
-    font-family: 'Quicksand', sans-serif;
     font-size: 64px;
     font-weight: 700;
     padding-top: 170px;
@@ -66,7 +77,6 @@ ul {
 
 .p_section_one {
     color: #FFF;
-    font-family: 'Quicksand', sans-serif;
     font-size: 32px;
     font-weight: 700;
     opacity: 0.5;
@@ -74,20 +84,14 @@ ul {
 }
 
 /* section one finish */
-.section_container {
-    display: flex;
-    justify-content: space-between;
-    gap: 447px;
-}
 
 /* section two begine */
 .h2_sec {
     color: #000;
-    font-family: 'Quicksand', sans-serif;
     font-size: 40px;
     font-weight: 600;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 80px;
     padding-bottom: 50px;
 }
 
@@ -104,7 +108,6 @@ ul {
 .section_two_h3 {
     color: #000;
     text-align: center;
-    font-family: 'Quicksand', sans-serif;
     font-size: 36px;
     font-weight: 500;
     padding-top: 30px;
@@ -114,9 +117,9 @@ ul {
 .section_two_p {
     color: #000;
     text-align: center;
-    font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     padding-top: 12px;
+    padding-bottom: 30px;
 }
 
 .section_two_a {
@@ -126,8 +129,8 @@ ul {
     text-decoration-line: underline;
     margin-bottom: 22px;
     display: block;
-    padding-top: 12px;
 }
+
 /* section two finish */
 /* section three begine */
 .section_three {
@@ -147,6 +150,7 @@ ul {
 .section_three_ul {
     display: flex;
     gap: 30px;
+    padding-bottom: 80px;
 }
 
 .section_three_article {
@@ -156,28 +160,25 @@ ul {
 
 .section_three_p_date {
     color: #7C7C7C;
-    font-family: 'Quicksana', sans-serif;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 600;
+    padding-bottom: 25px;
 }
 
 .section_three_h3 {
     color: #000;
-    font-family: 'Quicksand', sans-serif;
     font-weight: 600;
-    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .section_three_p {
     color: #7C7C7C;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 13px;
-    font-weight: 570;
-    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .section_three_content {
-    padding:25px 40px 50px 40px;
+    padding: 25px 40px 50px 40px;
 }
 
 /* section three finish */
@@ -189,7 +190,6 @@ ul {
 
 .footer_top_h4 {
     color: #FFF;
-    font-family: 'Quicksand', sans-serif;
     font-size: 40px;
     font-weight: 600;
     padding-top: 80px;
@@ -199,7 +199,6 @@ ul {
 
 .footer_top_h4_two {
     color: #FFF;
-    font-family: Quicksand;
     font-size: 40px;
     font-weight: 600;
     display: block;
@@ -209,7 +208,6 @@ ul {
 
 .footer_top_a {
     color: #FFF;
-    font-family: Quicksand;
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
@@ -225,7 +223,7 @@ footer {
 
 .img_one {
     display: flex;
-    gap:25px
+    gap: 25px
 }
 
 .img_two {
@@ -236,7 +234,7 @@ footer {
 
 .footer_top {
     display: flex;
-    gap:270px;
+    gap: 270px;
 }
 
 .footer_container_links {
@@ -251,7 +249,6 @@ footer {
 
 .footer_top_h2 {
     color: #FFF;
-    font-family: Quicksand;
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 50px;
