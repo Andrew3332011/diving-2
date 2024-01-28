@@ -221,15 +221,11 @@ footer {
 
 
 
-.img_one {
+.footer_list_images {
     display: flex;
-    gap: 25px
-}
-
-.img_two {
-    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
     gap: 25px;
-    margin-top: 25px;
 }
 
 .footer_top {
