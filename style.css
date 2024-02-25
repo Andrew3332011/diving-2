@@ -154,7 +154,6 @@ ul {
 }
 
 .section_three_article {
-    background-color: #FFF;
     border-radius: 15px;
 }
 
@@ -169,6 +168,12 @@ ul {
     color: #000;
     font-weight: 600;
     padding-bottom: 20px;
+    font-size: 24px;
+}
+
+.section_three_li {
+    background-color: #fff;
+    border-radius: 15px;
 }
 
 .section_three_p {
